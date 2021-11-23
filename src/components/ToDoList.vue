@@ -20,18 +20,18 @@
         </thead>
         <tbody>
             <tr v-for="(task, index) in tasks" :key="index">
-            <td>{{task.name}}</td>
-            <td style="width: 120px"><span @click="changeStatus(index)" class="pointer">{{firstCharUpper(task.status)}}</span></td>
-            <td>
-                <div class="pointer text-center" @click="editTask(index)">
-                    <span class="fa fa-pen" color="blue"></span>
-                </div>
-            </td>
-            <td>
-                <div class="pointer text-center" @click="deleteTask(index)">
-                    <span class="fa fa-trash" color="red"></span>
-                </div>
-            </td>
+                <td>{{task.name}}</td>
+                <td style="width: 120px"><span @click="changeStatus(index)" class="pointer">{{firstCharUpper(task.status)}}</span></td>
+                <td>
+                    <div class="pointer text-center" @click="editTask(index)">
+                        <span class="fa fa-pen" color="blue"></span>
+                    </div>
+                </td>
+                <td>
+                    <div class="pointer text-center" @click="deleteTask(index)">
+                        <span class="fa fa-trash" color="red"></span>
+                    </div>
+                </td>
             </tr>
         </tbody>
     </table>
