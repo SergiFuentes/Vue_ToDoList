@@ -1,10 +1,22 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+
+    <to-do-list></to-do-list>
+
   </div>
-  <router-view/>
 </template>
+
+<script>
+import ToDoList from './components/ToDoList.vue'
+
+export default {
+  name: 'App',
+  components: {
+    ToDoList
+  }
+}
+</script>
+
 
 <style>
 #app {
@@ -27,4 +39,7 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
+
 </style>
