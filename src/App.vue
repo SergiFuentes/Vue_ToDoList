@@ -1,18 +1,18 @@
 <template>
   <div id="app">
 
-    <to-do-list></to-do-list>
+    <about></about>
 
   </div>
 </template>
 
 <script>
-import ToDoList from './components/ToDoList.vue'
+import About from '@/views/About.vue'
 
 export default {
   name: 'App',
   components: {
-    ToDoList
+    About
   }
 }
 </script>

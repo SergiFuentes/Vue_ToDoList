@@ -6,13 +6,13 @@
 
 <script>
 // @ is an alias to /src
-import ToDoList from '@/components/ToDoList.vue'
+import About from './About.vue'
 
 
 export default {
   name: 'Home',
   components: {
-    ToDoList, 
+    About, 
   }
 }
 </script>

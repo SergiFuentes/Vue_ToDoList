@@ -1,0 +1,10 @@
+/*Add "scoped" attribute to limit CSS to this component only*/
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
