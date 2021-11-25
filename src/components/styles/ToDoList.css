@@ -3,6 +3,7 @@
 
 .pointer {
     cursor: pointer;
+    color: #dc3545;
 }
 
 .done {

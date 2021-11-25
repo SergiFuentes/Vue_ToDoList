@@ -11,8 +11,7 @@ export default {
             task:'',
             editedTask: null,
             availableStatuses: ['to-do', 'in-progress', 'done'],
-            tasks: [
-                
+            tasks: [               
             ]
         }
     },
@@ -55,4 +54,4 @@ export default {
          
     }
 
-};
+}
